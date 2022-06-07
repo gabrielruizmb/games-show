@@ -47,7 +47,7 @@ function loadGames() {
       data1 += `<div class="cartao1"> <a target="blank" href="${values.freetogame_profile_url}"> 
           <img src="${values.thumbnail}" alt="imagem" class="img">
          <h1 class="titulo">${values.title}</h1>
-         <p>Genero: ${values.genre}</p>
+         <p>Gênero: ${values.genre}</p>
          <p>Plataforma: ${values.platform}</p>
          </div></a>` 
     })
