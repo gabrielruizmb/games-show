@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li id="nome_projeto"><a href="#">Nome do projeto</a></li>
+                <li id="pc"><a href="#"><button onclick="changeplatform('PC')">PC</button></a></li> 
+                <li id="internet"><a href="#"><button onclick="changeplatform('Web Browser')">Browser</button></a></li>
+                <li id="todos"><a href="">ALL</a></li> 
+                <li id="favoritos"><a href="#">Favoritos</a></li> 
+            </ul>
+        </nav>
+
+        
+        <div class="menu-lateral">
+            <ul>
+                <li><a href="#"><button onclick="changeCategory('popularidade')">Home</button></a></li>
+                <li><a href="#"><button onclick="changeCategory('Strategy')">Strategy</button></a></li>
+                <li><a href="#"><button onclick="changeCategory('MOBA')">MMOBA</button></a></li>
+                <li><a href="#"><button onclick="changeCategory('Racing')">Racing</button></a></li>
+                <li><a href="#"><button onclick="changeCategory('Card')">Card</button></a></li>
+                <li><a href="#"><button onclick="changeCategory('Fighting')">Fighting</button></a></li>
+                <li><a href="#"><button onclick="changeCategory('Shooter')">Shooting</button></a></li>
+                <li><a href="#"><button onclick="changeCategory('MMORPG')">Mmorpg</button></a></li>
+            </ul>
+        </div>    
+    </header>
+    <main>
+        <div class="imagem_fundo"></div>
+
+        <div id="cartao">
+            
+        </div>
+        
+        <script src="js/fetch_API.js"></script>
+    </main>
+    <footer>
+        <div class="linha"></div>
+    </footer>
+</body>
+</html>
