@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+body {
+  background-image: url('imgbody.png');
+  background-position: right;
+  background-size: contain; 
+}
+
+main {
+  display: flex;
+}
+
+section {
+  width: 100%;
+}
+
+menu {
+  list-style: none;
+  text-align: center;
+  width: 25%;
+  height: 84.8vh;
+  background-image: url('imgmenu.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+menu li {
+  padding: 15px;
+}
+
+#cartao {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+
+.titulo {
+  color: orange;
+}
+
+.cartao1 p{
+  color: orange;
+}
+
+.cartao1 img{
+  border-radius: 30px;
+  width: 203px;
+  height: 115px;
+}
+
+.cartao1 {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar button {
+  margin: 10px;
+}
+
+.navbar a {
+  color: white;
+  margin: 10px;
+}
+
+.navbar a:visited {
+  color: white;
+}
