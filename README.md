@@ -12,7 +12,7 @@
   
 
  # Colaboradores:
-  Gabriel Ruiz e Eduardo R. Ferreira.
+  Gabriel Ruiz: https://github.com/gabrielruizmb e Eduardo R. Ferreira: https://github.com/77Eduardo.
   
  # Link para o site: 
  https://gabrielruizmb.github.io/games-show/
