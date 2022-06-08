@@ -9,4 +9,4 @@
  # Colaboradores:
   Gabriel Ruiz e Eduardo R. Ferreira.
   
- # Link para o site:
+ # Link para o site: https://gabrielruizmb.github.io/games-show/
