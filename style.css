@@ -15,6 +15,10 @@ a:visited {
   color: black;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   background-image: url('imgbody.png');
   background-position: right;
