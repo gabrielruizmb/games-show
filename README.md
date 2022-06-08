@@ -6,6 +6,11 @@
   
 ![Sem título](https://user-images.githubusercontent.com/105463724/172503424-0efd394c-1f9a-44c9-ae25-67c0842b5001.jpg)
 
+ # Como usar este site?
+  Para usar este site basta entrar nele pelo link: https://gabrielruizmb.github.io/games-show/
+  Ou você pode baixar o repositório em seu computador e abrir o arquivo index.html
+  
+
  # Colaboradores:
   Gabriel Ruiz e Eduardo R. Ferreira.
   
