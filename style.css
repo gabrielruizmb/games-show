@@ -19,18 +19,34 @@ button {
   cursor: pointer;
 }
 
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar button {
+  margin: 1vw;
+}
+
+.navbar a {
+  color: white;
+  margin: 1vw;
+}
+
+.navbar a:visited {
+  color: white;
+}
+
 body {
   background-image: url('imgbody.png');
   background-position: right;
   background-size: contain; 
 }
 
+
 main {
   display: flex;
-}
-
-section {
-  width: 100%;
 }
 
 menu {
@@ -45,23 +61,24 @@ menu {
 }
 
 menu li {
-  padding: 15px;
+  padding: 7.5%;
+}
+
+section {
+  width: 100%;
 }
 
 #cartao {
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-top: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 }
 
-.titulo {
-  color: orange;
-}
-
-.cartao1 p{
-  color: orange;
+.cartao1 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .cartao1 img{
@@ -70,25 +87,15 @@ menu li {
   height: 115px;
 }
 
-.cartao1 {
-  margin-bottom: 20px;
+.titulo {
+  color: orange;
+  background-color: rgb(26, 26, 26);
 }
 
-.navbar {
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
+.cartao1 p{
+  color: orange;
+  background-color: rgb(26, 26, 26); 
 }
 
-.navbar button {
-  margin: 10px;
-}
 
-.navbar a {
-  color: white;
-  margin: 10px;
-}
 
-.navbar a:visited {
-  color: white;
-}

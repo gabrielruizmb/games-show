@@ -44,12 +44,12 @@ function loadGames() {
     })
     .forEach(values => {
       //roda um arrey retornando vazio
-      data1 += `<div class="cartao1"> <a target="blank" href="${values.freetogame_profile_url}"> 
+      data1 += `<div class="cartao1"> <a title="Clique para ver mais sobre este jogo." target="blank" href="${values.freetogame_profile_url}"> 
           <img src="${values.thumbnail}" alt="imagem" class="img">
          <h1 class="titulo">${values.title}</h1>
          <p>Gênero: ${values.genre}</p>
          <p>Plataforma: ${values.platform}</p>
-         </div></a>` 
+         </div></a>`
     })
   document.getElementById('cartao').innerHTML = data1
 }
