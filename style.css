@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+button {
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar button {
+  margin: 1vw;
+}
+
+.navbar a {
+  color: white;
+  margin: 1vw;
+}
+
+.navbar a:visited {
+  color: white;
+}
+
+body {
+  background-image: url('imgbody.png');
+  background-position: right;
+  background-size: contain; 
+}
+
+
+main {
+  display: flex;
+}
+
+menu {
+  list-style: none;
+  text-align: center;
+  width: 25%;
+  height: 84.8vh;
+  background-image: url('imgmenu.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+menu li {
+  padding: 7.5%;
+}
+
+section {
+  width: 100%;
+}
+
+#cartao {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+
+.cartao1 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cartao1 img{
+  border-radius: 30px;
+  width: 203px;
+  height: 115px;
+}
+
+.titulo {
+  color: orange;
+  background-color: rgb(26, 26, 26);
+}
+
+.cartao1 p{
+  color: orange;
+  background-color: rgb(26, 26, 26); 
+}
+
+
+
