@@ -31,7 +31,6 @@ function changeplatform(newplatform) {
 function loadGames() {
   //funcao faz aparecer os jogos na tela
   let data1 = '' //variavel como string vazia
-  games
     .filter(game => {
       if (!category) return true
       if (game.genre.includes(category)) {
